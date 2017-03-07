@@ -51,4 +51,12 @@ public class Bear{
     return null;
   }
 
+  public int totalNutrition(){
+    int totalNutrition = 0;
+    for (Edible food : belly) {
+      totalNutrition = totalNutrition + food.nutritionValue();
+    }
+    return totalNutrition;
+  }
+
 }

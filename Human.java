@@ -8,4 +8,8 @@ public class Human implements Edible {
     return "I am swimming!";  //doesn't have to be identical to the salmon's swim
   }
 
+  public int nutritionValue(){
+    return 5;
+  }
+
 }
